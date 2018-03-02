@@ -1,0 +1,11 @@
+//video
+export const FETCH_VIDEOS = 'FETCH_VIDEOS'
+
+//user
+export const SHOW_SIGN_DIALOG = 'SHOW_SIGN_DIALOG'
+export const SIGN_BY_USERNAME = 'SIGN_BY_USERNAME'
+export const SET_MESSAGE = 'SET_MESSAGE'
+export const SET_TOKEN = 'SET_TOKEN'
+export const FETCH_SIGNIN_USER = 'FETCH_SIGNIN_USER'
+export const SET_SIGNIN_USER = 'SET_SIGNIN_USER'
+export const CLOSE_SIGN_DIALOG = 'CLOSE_SIGN_DIALOG'
