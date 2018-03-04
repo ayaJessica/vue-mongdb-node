@@ -5,7 +5,7 @@ const env = process.env.NODE_ENV || 'development';
 const videoRouters = require('./server/api/video');
 const userRoutes = require('./server/api/user');
 var logger = require('morgan');
-let dbUrl = 'mongodb://vn_runner:Xu510*@127.0.0.1:19999/vnpasttime';
+let dbUrl = '';
 if(env === 'development'){
   console.log('change');
   dbUrl = 'mongodb://localhost:27017/vnpastime';
